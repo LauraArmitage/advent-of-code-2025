@@ -1,10 +1,14 @@
 package com.armitage;
 
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
+
 import java.util.List;
 
 import static java.lang.Integer.parseInt;
 import static java.lang.Math.abs;
 
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class Day1 {
 
     public static int calculateEndPosition(List<String> input) throws Exception {
